@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://use.typekit.net/fmg2fys.css">
+<link rel="stylesheet" href="https://use.typekit.net/ceo8nms.css">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{background:#FFFFFF;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  ::selection{background:#141414;color:#FFFFFF;}
+  img{display:block;max-width:100%;}
+  a{color:inherit;}
+  a[data-navlink]:hover{color:#141414 !important;}
+  a[data-work]:hover img{transform:scale(1.03);}
+  @media (max-width:720px){
+    [data-grid]{grid-template-columns:1fr !important;}
+    [data-navlinks]{gap:20px !important;}
+  }
+
+  img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;user-drag:none;user-select:none;-webkit-touch-callout:none;}
+</style>
+</helmet>
+
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#141414"></rect><text x="50" y="62" font-family="Helvetica,Arial,sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">WP</text></svg></template>
+
+<div style="font-family:'inclusive-sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#141414;background:#FFFFFF;overflow-x:hidden;min-height:100vh;">
+
+  <nav style="position:sticky;top:0;z-index:50;background:rgba(255,255,255,0.88);backdrop-filter:blur(10px);border-bottom:1px solid #ECECEC;">
+    <div style="max-width:1120px;margin:0 auto;padding:19px 32px;display:flex;justify-content:space-between;align-items:center;">
+      <a href="HOME.dc.html" style="font-size:14px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;text-decoration:none;color:#141414;">William Potter</a>
+      <div data-navlinks="" style="display:flex;gap:36px;font-size:12px;letter-spacing:0.15em;text-transform:uppercase;">
+        <a data-navlink="" href="HOME.dc.html" style="color:#8A8A8A;text-decoration:none;">Home</a>
+        <a data-navlink="" href="WORK.dc.html" style="color:#141414;text-decoration:none;">Work</a>
+        <a data-navlink="" href="HOME.dc.html#contact" style="color:#8A8A8A;text-decoration:none;">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section style="max-width:1120px;margin:0 auto;padding:76px 32px 0;">
+    <h1 style="font-family:'inria-sans',sans-serif;font-size:clamp(40px,6.2vw,68px);font-weight:700;letter-spacing:-0.02em;line-height:1.0;">Work</h1>
+    <p style="max-width:52ch;font-size:15px;line-height:1.75;color:#6B6B6B;margin-top:20px;text-wrap:pretty;">Projects across architecture, branding, visualization, and spatial design</p>
+  </section>
+
+  <!-- GRID -->
+  <section style="max-width:1120px;margin:0 auto;padding:54px 32px 0;">
+    <div data-grid="" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 40px;">
+
+      <a data-work="" href="project-andes.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/andes-cover-thumb.jpg" alt="Andes #6 Toyota Camry livery" style="width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Andes</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-circle-k.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/circlek-cover-thumb.jpg" alt="Circle K #17 Chevrolet livery" style="width:100%;height:100%;object-fit:cover;transform:scale(1.05);transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Circle K</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-rural-revival.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/p09_1.jpg" alt="Rural Revival" style="width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Rural Revival</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-launch99.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/p07_29.jpg" alt="Launch 99" style="width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Launch 99</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-knox.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/knox-cover-thumb.jpg" alt="Knox County Library Park" style="width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Knox County Library Park</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-elnora.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/elnora-front-day-thumb.jpg" alt="Graham Cheese Factory Marketplace" style="width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Graham Cheese Factory Marketplace</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-buffalouies.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/bl-storefront.jpg" alt="BuffaLouie's storefront in Carmel, Indiana" style="width:100%;height:100%;object-fit:cover;object-position:center 35%;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">BuffaLouies</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-showroom.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/showroom-cover-thumb.jpg" alt="Do It Best showroom interior render" style="width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Do It Best Showroom System</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-adu.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="assets/p03_1.jpg" alt="Accessory Dwelling Unit" style="width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Accessory Dwelling Unit</h3>
+        </div>
+      </a>
+
+      <a data-work="" href="project-library.dc.html" style="text-decoration:none;display:block;">
+        <div style="overflow:hidden;border:1px solid #ECECEC;background:#F2F2F2;aspect-ratio:4/3;"><img draggable="false" src="library-hero-mr8new.png" alt="Public Library East" style="width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.2,1);"></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:16px;">
+          <h3 style="font-weight:400;font-size:15px;letter-spacing:0.08em;text-transform:uppercase;">Public Library East</h3>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <footer style="margin-top:110px;border-top:1px solid #ECECEC;">
+    <div style="max-width:1120px;margin:0 auto;padding:34px 32px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#8A8A8A;">
+      <span>© 2026 William Potter</span>
+      <div style="display:flex;gap:28px;flex-wrap:wrap;">
+        <a href="HOME.dc.html" style="text-decoration:none;">Home</a>
+        <a href="WORK.dc.html" style="text-decoration:none;">Work</a>
+        <a href="HOME.dc.html#contact" style="text-decoration:none;">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# Editor / build artifacts
+_c/
+.bundles/
+scraps/
+.thumbnail
+
+# Original source material — kept locally, not published
+uploads/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+*.log

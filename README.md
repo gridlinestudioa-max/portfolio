@@ -10,7 +10,7 @@ concept renders, website design and build, and car livery.
 - `WORK.dc.html` — project index, grouped by type of work
 - `SERVICES.dc.html` — services and "How pricing works"
 - `ABOUT.dc.html` — studio story, experience timeline, résumé/portfolio downloads
-  (`William-Potter-Resume.pdf`, `William-Potter-Portfolio*.pdf`)
+  (`William-Potter-Resume.pdf`, `William-Potter-CV.pdf`, `William-Potter-Portfolio*.pdf`)
 - `CONTACT.dc.html` — request a quote
 - `project-*.dc.html` — individual case studies
 

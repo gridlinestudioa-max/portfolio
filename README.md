@@ -17,7 +17,7 @@ concept renders, website design and build, and car livery.
 
 - `assets/` — all images used by the site
 - `support.js`, `lightbox.js` — runtime scripts (required)
-- `favicon.svg`, `sitemap.xml`, `robots.txt`
+- `favicon.png`, `apple-touch-icon.png`, `assets/logo-mark.png` (logo mark), `sitemap.xml`, `robots.txt`
 
 > `uploads/` holds original source material (renders, boards, PDFs). It is
 > kept locally but excluded from the repo via `.gitignore`, so nothing linked

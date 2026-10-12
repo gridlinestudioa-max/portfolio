@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /deploy/
 
 Sitemap: https://will-potter.com/sitemap.xml
